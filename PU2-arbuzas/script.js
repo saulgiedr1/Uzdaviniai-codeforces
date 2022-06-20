@@ -10,11 +10,14 @@ console.log(dalinimas);
 }
 
 function arbuzoDalys(a){
-    if (a % 2 === 0) {
-        return "yes"
+    if (a == 2 ) {
+        return "no";
     }
-    else {
-        return "no"
+    else if (a % 2 ===0) {
+        return "yes";
+
     }
+    else 
+     return "no";
 }
 
